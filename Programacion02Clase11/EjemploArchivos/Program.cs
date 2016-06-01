@@ -44,7 +44,15 @@ namespace EjemploArchivos
 
             ManejadorXml.GuardarListaDePersonas(listaDePersonas);
 
-            
+            Aula aulaDos = new Aula();
+            aulaDos.nombre = "Roja";
+            aulaDos.profesor = personaUno;
+            aulaDos.listaDeAlumnos.Add(personaDos);
+            aulaDos.listaDeAlumnos.Add(personaTres);
+
+            ManejadorXml.GuardarAulaDos(aulaDos);
+
+                        
 
             Console.ReadKey();
 

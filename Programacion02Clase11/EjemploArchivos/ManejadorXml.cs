@@ -70,5 +70,24 @@ namespace EjemploArchivos
 
             return true;
         }
+
+        public static bool GuardarAulaDos(Aula aulaDos)
+        {
+            try
+            {
+                using (XmlTextWriter escritor = new XmlTextWriter("AulaDos.xml", Encoding.UTF8))
+                {
+                    XmlSerializer serializador = new XmlSerializer(typeof(Aula));
+                    serializador.Serialize(escritor, aulaDos);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                return false;
+            }
+
+            return true;
+        }
     }
 }

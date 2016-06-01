@@ -9,10 +9,11 @@ namespace EjemploArchivos
     {
         public string nombre;
         public Persona profesor;
+        public List<Persona> listaDeAlumnos;
 
         public Aula()
         {
-            List<Persona> Alumno = new List<Persona>();
+            this.listaDeAlumnos = new List<Persona>();
         }
 
         
