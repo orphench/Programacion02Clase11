@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7343F1F0-6E51-4CEE-B52D-E4DA68A73A74}</ProjectGuid>
+    <ProjectGuid>{808D6756-43BF-447A-8524-F1915792E501}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EjemploArchivos</RootNamespace>
-    <AssemblyName>EjemploArchivos</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RootNamespace>NuevoProyecto</RootNamespace>
+    <AssemblyName>NuevoProyecto</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -41,25 +41,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alumno.cs" />
-    <Compile Include="Aula.cs" />
-    <Compile Include="Auto.cs" />
+    <Compile Include="Cajon.cs" />
+    <Compile Include="CajonFrutas.cs" />
+    <Compile Include="CajonVerdura.cs" />
+    <Compile Include="Camion.cs" />
     <Compile Include="Camioneta.cs" />
+    <Compile Include="Carro.cs" />
+    <Compile Include="Conductor.cs" />
+    <Compile Include="Distribuidor.cs" />
     <Compile Include="Dueño.cs" />
-    <Compile Include="Estacionamiento.cs" />
-    <Compile Include="ManejadorDeArchivos.cs" />
-    <Compile Include="ManejadorXml.cs" />
-    <Compile Include="Moto.cs" />
-    <Compile Include="Motorizados.cs" />
+    <Compile Include="Informal.cs" />
     <Compile Include="Persona.cs" />
-    <Compile Include="Profesor.cs" />
+    <Compile Include="Profecional.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SerHumano.cs" />
-    <Compile Include="Vehiculo.cs" />
+    <Compile Include="Transporte.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

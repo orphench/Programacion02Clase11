@@ -20,10 +20,10 @@ namespace Programacion02Clase11
 
             try
             {
-                using ()
-                {
-                    XmlWriter xml = new XmlWriter();
-                }
+                //using ()
+                //{
+                //    XmlWriter xml = new XmlWriter();
+                //}
             }
             catch (Exception)
             {
